@@ -1,0 +1,28 @@
+# Maintenance Mode
+#RewriteEngine On
+#RewriteBase /
+#RewriteCond %{REMOTE_ADDR} !=75.142.39.22
+#RewriteCond %{REQUEST_URI} !=/construction.html
+#RewriteRule .* /construction.html [L]
+
+#<IfModule mod_headers.c>
+#    Header set Access-Control-Allow-Origin "*"
+#</IfModule>
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://foolserran.de/$1 [R,L]
+
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+
+
+</IfModule>
+
+# END WordPress
