@@ -3,19 +3,19 @@
 #/public/.htaccess
 
 # Ignore everything with sensitive data
-  # Ignore the wp-configs but not the sample.
-  wp-config.*.php
-  !wp-config.sample.php
+# Ignore the wp-configs but not the sample.
+wp-config.*.php
+!wp-config.sample.php
 
-  # Ignore the scripts config variables but not the sample.
-  /scripts/scripts-config.sh
-  !/scripts/scripts-config.sample.sh
+# Ignore the scripts config variables but not the sample.
+/scripts/scripts-config.sh
+!/scripts/scripts-config.sample.sh
 
-  # Ignore the database backups
-  /db/archive/*
-  /db/latest/*
-  !/db/archive
-  !/db/latest
+# Ignore the database backups
+/db/archive/*
+/db/latest/*
+!/db/archive
+!/db/latest
 
 # Ignore the wp core directory
 /public/wpcr/*
