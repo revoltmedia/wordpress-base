@@ -4,8 +4,8 @@
 
 # Ignore everything with sensitive data
   # Ignore the wp-configs but not the sample.
-  !wp-config.sample.php
   wp-config.*.php
+  !wp-config.sample.php
 
   # Ignore the scripts config variables but not the sample.
   !/scripts/scripts-config.sample.sh
