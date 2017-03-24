@@ -1,3 +1,5 @@
+# .gitignore
+
 #/public/.htaccess
 
 # Ignore everything with sensitive data
