@@ -8,29 +8,28 @@
   !wp-config.sample.php
 
   # Ignore the scripts config variables but not the sample.
-  !/scripts/scripts-config.sample.sh
   /scripts/scripts-config.sh
+  !/scripts/scripts-config.sample.sh
 
   # Ignore the database backups
-  !/db/archive
-  !/db/latest
   /db/archive/*
   /db/latest/*
+  !/db/archive
+  !/db/latest
 
 # Ignore the wp core directory
 /public/wpcr/*
 !/public/wpcr
 
 # Ignore the content directory
-!/public/content
-!/public/content/plugins
-!/public/content/uploads
-!/public/content/themes
 /public/content/*
 /public/content/plugins/*
 /public/content/uploads/*
 /public/content/themes/*
-
+!/public/content
+!/public/content/plugins
+!/public/content/uploads
+!/public/content/themes
 
 
 
