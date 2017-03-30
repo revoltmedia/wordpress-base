@@ -19,5 +19,5 @@ cp scripts/scripts-config.sample.sh scripts/scripts-config.sh
 * 
 * Hit yourdomain.com/wpcr/wp-admin #should redirect to the install OR login if this is an existing WP install.
 * Once WP is installed:
-* * Go to Settings >  General be sure WordPress Address (URL) is the path to the WP subdirectory, then save.
-* * Go to Settings > Permalinks and set an option for the permalink structure, then save.
+ * Go to Settings >  General be sure WordPress Address (URL) is the path to the WP subdirectory, then save.
+ * Go to Settings > Permalinks and set an option for the permalink structure, then save.
