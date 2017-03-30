@@ -6,6 +6,8 @@ define( 'DB_HOST', 'localhost' );
 
 define( 'WP_CONTENT_URL', 'http://xxx.example.com/content');
 
+//define('FS_METHOD', 'direct');
+
 ini_set( 'display_errors', E_ALL );
 define( 'WP_DEBUG_DISPLAY', true );
 define( 'WP_DEBUG', true );
