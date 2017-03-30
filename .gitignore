@@ -21,6 +21,9 @@ wp-config.*.php
 /public/wpcr/*
 !/public/wpcr
 
+# Ignore the .htaccess file
+/public/.htaccess
+
 # Ignore the content directory
 /public/content/*
 /public/content/plugins/*
