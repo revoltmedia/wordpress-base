@@ -3,6 +3,7 @@
 
 ### Install ###
 * targetDir should be created and write-able by your user.
+* For Docker php5 you must install the mysqli extension at container command line: docker-php-ext-install mysqli 
 
 ```
 #!bash
