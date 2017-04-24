@@ -2,9 +2,15 @@
 
 
 ### Install ###
-* The whole proejct should be created and write-able by your user.
+* The whole project should be created and write-able by your user.
 * /content and .htaccess should be owned by a group shared with your user and apache/nginx.
 * For Docker php5 you must install the mysqli extension at container command line: docker-php-ext-install mysqli 
+
+### Manual Install ###
+* Clone starter repo, if it's already been set up with submodules use git clone --recursive
+* Checkout correct branch on any submodules
+
+### Script Install ###
 
 ```
 #!bash
