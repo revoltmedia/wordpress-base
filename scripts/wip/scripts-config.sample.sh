@@ -3,7 +3,7 @@
 #All paths relative to scripts directory
 
 #Primary 2nd Level Domain (no www)
-  domain='foolserran.de';
+  domain='domain.com';
 #Paths to environments
   stagePath='/var/www/vhosts/stage.${domain}';
   releasePath='/var/www/vhosts/release.${domain}';

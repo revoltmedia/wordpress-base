@@ -2,6 +2,10 @@
 
 #/public/.htaccess
 
+secrets/salts.php
+wp-cli.yml
+docker
+
 # Ignore everything with sensitive data
 # Ignore the wp-configs but not the sample.
 wp-config.*.php
@@ -18,8 +22,8 @@ wp-config.*.php
 !/db/latest
 
 # Ignore the wp core directory
-/public/wpcr/*
-!/public/wpcr
+/public/x/*
+!/public/x
 
 # Ignore the .htaccess file
 /public/.htaccess
@@ -47,6 +51,4 @@ wp-config.*.php
 # Don’t ignore these plugins
 #!/wp-content/themes/index.php
 #!/wp-content/themes/twentyseventeen
-
-# Don’t ignore these plugins
 #!/wp-content/plugins/akismet
